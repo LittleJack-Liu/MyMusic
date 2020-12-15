@@ -73,7 +73,7 @@ public class DownloadService extends Service {
     @Override
     public IBinder onBind(Intent intent) {
 //        //获取从intent获取activity传递过来的数据
-//        name = intent.getStringExtra("name");
+
         return mBinder;
     }
 
